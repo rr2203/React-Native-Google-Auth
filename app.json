@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "authsession-google-example",
+    "slug": "authsession-google-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "com.haywire2210.authsessiongoogle",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.haywire2210.authsessiongoogle"
+    },
+    "android": {
+      "package": "com.haywire2210.authsessiongoogle",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "64222139-930f-4871-91f5-c35f8deba2c9"
+      }
+    }
+  }
+}
